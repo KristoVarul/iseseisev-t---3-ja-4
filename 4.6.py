@@ -1,5 +1,6 @@
-def kuu_nimi(kuupaev):
-    kuu = ["jaanuar", "veebruar", "märts", "aprill", "mai", "juuni", "juuli", "august", "september", "oktoober" "novembr", "detsember"]
+def kuu_nimi(kuu):
+    kuud = ["jaanuar", "veebruar", "märts", "aprill", "mai", "juuni", "juuli", "august", "september", "oktoober" "november", "detsember"]
+    return kuud[kuu - 1]
 
 def kuupaev_sõnena(kuupaev):
     i = kuupaev.split(".")
